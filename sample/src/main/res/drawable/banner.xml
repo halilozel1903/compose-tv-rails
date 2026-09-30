@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 320 x 180 dp launcher banner for Android TV: three rails of cards and a play button. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <path android:pathData="M0,0h320v180h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="320"
+                android:endY="180"
+                android:startX="0"
+                android:startY="0"
+                android:type="linear">
+                <item android:color="#FF1B2A4A" android:offset="0" />
+                <item android:color="#FF4A1F5C" android:offset="0.6" />
+                <item android:color="#FFB2456E" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Hero card -->
+    <path
+        android:fillColor="#33FFFFFF"
+        android:pathData="M28,24h264a10,10 0,0 1,10 10v52a10,10 0,0 1,-10 10h-264a10,10 0,0 1,-10 -10v-52a10,10 0,0 1,10 -10z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M44,44l0,32l26,-16z" />
+    <path
+        android:fillColor="#CCFFFFFF"
+        android:pathData="M84,48h120a4,4 0,0 1,0 8h-120a4,4 0,0 1,0 -8z" />
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M84,64h80a3,3 0,0 1,0 6h-80a3,3 0,0 1,0 -6z" />
+    <!-- Rail of cards, the second one focused -->
+    <path
+        android:fillColor="#40FFFFFF"
+        android:pathData="M24,112h56a6,6 0,0 1,6 6v28a6,6 0,0 1,-6 6h-56a6,6 0,0 1,-6 -6v-28a6,6 0,0 1,6 -6z" />
+    <path
+        android:fillColor="#FFFFB86B"
+        android:pathData="M96,106h72a7,7 0,0 1,7 7v38a7,7 0,0 1,-7 7h-72a7,7 0,0 1,-7 -7v-38a7,7 0,0 1,7 -7z" />
+    <path
+        android:fillColor="#40FFFFFF"
+        android:pathData="M188,112h56a6,6 0,0 1,6 6v28a6,6 0,0 1,-6 6h-56a6,6 0,0 1,-6 -6v-28a6,6 0,0 1,6 -6z" />
+    <path
+        android:fillColor="#26FFFFFF"
+        android:pathData="M262,112h58v40h-58a6,6 0,0 1,-6 -6v-28a6,6 0,0 1,6 -6z" />
+</vector>
